@@ -6,7 +6,7 @@ return array.join
     new_array = [array.first, "and", array.last]
     new_array.join(" ")
  elsif array.length == 3
-   newest_array = array[0], array[1], , array.pop, array.push("and starfruit")
+   newest_array = array[0], array[1], array.pop, array.push("and starfruit")
    newest_array.join(" ")
 
 
