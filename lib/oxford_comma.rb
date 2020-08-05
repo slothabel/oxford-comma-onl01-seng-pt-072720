@@ -6,7 +6,8 @@ return array.join
     new_array = [array.first, "and", array.last]
     new_array.join(" ")
  elsif array.length == 3
-   newest_array = [",", ]
+   newest_array = [array.pop]
+   
 
 
   end
