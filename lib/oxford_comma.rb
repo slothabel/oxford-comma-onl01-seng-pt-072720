@@ -7,7 +7,7 @@ return array.join
     new_array.join(" ")
  elsif array.length == 3
    newest_array = array[0], array[1], array.delete_at(2)
-   newest_array.join(" ")
+   newest_array.join(",")
 
 
   end
